@@ -6,6 +6,16 @@ import edu.stanford.nlp.objectbank.ObjectBank;
 import java.util.*;
 import java.io.*;
 
+/**
+ * Support Vector Machine Implementation for i2b2 Smoking Data.
+ *
+ * NOTE: This class is not complete, it needs to install some binaries for SVM to work - and I can't figure it out.
+ *
+ * @author MichaelK
+ * @date 6/20/17
+ */
+
+
 public class supportvector {
     public static void main(String[] args) {
         ColumnDataClassifier cdc = new ColumnDataClassifier("maxent.prop");

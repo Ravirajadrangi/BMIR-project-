@@ -2,11 +2,504 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d455b38c-9480-4671-9e63-6c1ab3166474" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/smokingml/naivebayes.class" afterPath="$PROJECT_DIR$/out/production/smokingml/naivebayes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/smokingml/supportvector.class" afterPath="$PROJECT_DIR$/out/production/smokingml/supportvector.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/convert-to-stanford-classifier.csh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sksmoke.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/CURRENT.SMOKER/1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/CURRENT.SMOKER/109" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/CURRENT.SMOKER/151" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/CURRENT.SMOKER/202" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/CURRENT.SMOKER/214" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/CURRENT.SMOKER/220" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/CURRENT.SMOKER/515" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/CURRENT.SMOKER/562" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/CURRENT.SMOKER/633" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/CURRENT.SMOKER/845" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/CURRENT.SMOKER/906" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/NON.SMOKER/111" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/NON.SMOKER/135" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/NON.SMOKER/176" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/NON.SMOKER/177" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/NON.SMOKER/185" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/NON.SMOKER/206" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/NON.SMOKER/371" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/NON.SMOKER/435" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/NON.SMOKER/518" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/NON.SMOKER/663" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/NON.SMOKER/691" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/NON.SMOKER/721" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/NON.SMOKER/760" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/NON.SMOKER/790" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/NON.SMOKER/829" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/NON.SMOKER/838" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/PAST.SMOKER/14" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/PAST.SMOKER/168" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/PAST.SMOKER/194" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/PAST.SMOKER/233" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/PAST.SMOKER/365" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/PAST.SMOKER/41" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/PAST.SMOKER/529" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/PAST.SMOKER/660" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/PAST.SMOKER/685" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/PAST.SMOKER/709" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/PAST.SMOKER/77" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/136" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/298" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/410" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/413" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/423" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/425" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/432" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/433" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/442" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/443" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/455" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/456" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/457" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/466" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/467" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/473" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/474" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/476" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/479" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/480" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/484" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/486" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/487" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/488" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/492" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/493" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/500" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/502" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/644" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/650" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/659" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/665" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/674" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/683" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/698" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/705" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/712" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/722" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/728" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/739" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/746" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/756" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/767" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/773" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/782" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/787" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/803" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/817" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/819" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/822" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/826" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/832" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/844" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/848" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/852" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/859" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/871" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/878" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/880" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/885" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/886" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/891" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-test/UNKNOWN/893" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/130" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/133" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/223" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/236" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/241" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/25" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/260" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/265" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/284" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/31" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/328" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/346" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/352" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/370" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/406" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/43" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/535" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/540" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/543" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/563" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/564" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/565" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/585" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/602" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/626" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/641" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/643" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/681" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/704" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/73" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/757" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/786" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/85" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/872" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/CURRENT.SMOKER/874" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/212" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/249" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/27" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/282" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/320" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/331" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/345" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/36" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/363" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/385" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/390" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/393" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/402" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/412" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/421" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/434" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/452" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/464" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/468" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/497" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/519" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/530" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/542" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/547" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/551" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/552" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/570" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/571" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/573" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/577" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/586" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/600" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/603" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/614" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/617" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/620" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/627" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/628" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/629" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/630" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/639" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/696" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/710" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/714" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/716" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/718" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/742" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/759" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/761" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/764" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/766" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/777" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/794" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/799" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/823" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/839" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/862" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/865" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/868" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/879" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/888" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/896" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/899" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/907" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/NON.SMOKER/913" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/143" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/154" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/239" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/257" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/272" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/278" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/295" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/326" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/344" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/368" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/485" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/531" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/532" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/581" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/584" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/591" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/606" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/613" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/621" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/623" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/640" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/654" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/684" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/725" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/736" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/747" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/763" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/771" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/776" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/792" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/811" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/816" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/853" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/856" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/900" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/PAST.SMOKER/903" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/10" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/100" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/101" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/116" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/117" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/119" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/120" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/131" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/148" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/149" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/150" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/152" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/159" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/16" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/160" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/174" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/175" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/190" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/191" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/192" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/193" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/205" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/207" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/208" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/219" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/22" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/221" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/222" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/235" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/244" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/245" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/246" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/259" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/261" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/264" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/279" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/280" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/289" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/292" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/30" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/303" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/304" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/307" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/308" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/309" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/316" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/317" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/318" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/321" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/333" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/334" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/336" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/337" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/338" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/339" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/354" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/355" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/357" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/361" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/362" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/366" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/372" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/373" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/379" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/381" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/382" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/383" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/388" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/395" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/399" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/40" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/400" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/401" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/403" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/416" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/417" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/419" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/49" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/504" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/506" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/507" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/509" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/510" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/514" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/516" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/520" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/521" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/522" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/523" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/524" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/526" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/527" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/533" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/534" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/539" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/544" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/550" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/554" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/558" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/559" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/560" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/561" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/566" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/567" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/568" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/569" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/572" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/575" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/579" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/580" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/588" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/589" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/590" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/594" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/595" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/599" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/601" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/604" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/607" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/609" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/610" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/612" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/615" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/616" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/619" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/624" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/631" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/634" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/635" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/636" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/637" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/638" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/642" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/649" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/651" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/652" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/653" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/656" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/657" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/658" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/661" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/662" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/666" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/667" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/671" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/675" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/676" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/678" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/679" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/68" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/687" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/693" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/695" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/701" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/702" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/708" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/711" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/715" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/717" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/719" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/720" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/723" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/726" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/727" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/731" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/732" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/734" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/735" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/74" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/740" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/741" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/743" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/748" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/749" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/750" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/751" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/755" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/758" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/76" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/762" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/769" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/770" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/772" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/774" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/775" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/778" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/781" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/783" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/784" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/785" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/788" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/789" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/791" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/796" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/798" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/80" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/800" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/802" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/805" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/807" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/812" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/813" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/814" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/818" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/820" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/821" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/824" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/830" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/834" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/835" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/836" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/837" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/84" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/840" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/841" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/842" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/846" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/847" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/849" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/854" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/858" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/863" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/866" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/867" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/869" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/873" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/875" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/877" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/881" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/882" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/883" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/889" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/890" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/894" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/895" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/898" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/909" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/910" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/911" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/912" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/915" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/916" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/917" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/918" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/919" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/920" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/921" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/98" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smoker-train/UNKNOWN/99" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smokers_surrogate_test_all_version2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xmltotext.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/maxent.java" afterPath="$PROJECT_DIR$/src/maxent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smoking_machinelearning.ipynb" afterPath="$PROJECT_DIR$/smoking_machinelearning.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/naivebayes.java" afterPath="$PROJECT_DIR$/src/naivebayes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/supportvector.java" afterPath="$PROJECT_DIR$/src/supportvector.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +515,8 @@
       <file leaf-file-name="maxent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/maxent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="195">
+              <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,7 +528,7 @@
         <entry file="file://$PROJECT_DIR$/src/naivebayes.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+              <caret line="18" column="52" lean-forward="false" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -44,8 +537,8 @@
       <file leaf-file-name="supportvector.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/supportvector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="405">
+              <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,9 +579,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/ClassifierExample.java" />
-        <option value="$PROJECT_DIR$/src/supportvector.java" />
         <option value="$PROJECT_DIR$/src/maxent.java" />
         <option value="$PROJECT_DIR$/src/naivebayes.java" />
+        <option value="$PROJECT_DIR$/src/supportvector.java" />
       </list>
     </option>
   </component>
@@ -101,8 +594,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="4" />
     <option name="y" value="22" />
-    <option name="width" value="1436" />
-    <option name="height" value="878" />
+    <option name="width" value="1916" />
+    <option name="height" value="1178" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -212,38 +705,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smokingml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smokingml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smokingml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smokingml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="company" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -255,7 +716,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
@@ -744,16 +1205,15 @@
       <option name="presentableId" value="Default" />
       <updated>1498067699882</updated>
       <workItem from="1498067708007" duration="8760000" />
-      <workItem from="1498147177011" duration="3945000" />
+      <workItem from="1498147177011" duration="5891000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12705000" />
+    <option name="totallyTimeSpent" value="14651000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="22" width="1436" height="878" extended-state="6" />
-    <editor active="true" />
+    <frame x="4" y="22" width="1916" height="1178" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -764,13 +1224,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3275649" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23895401" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21169916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15866388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -849,8 +1309,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/supportvector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="405">
+          <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -859,8 +1319,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/maxent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="195">
+          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -870,7 +1330,7 @@
     <entry file="file://$PROJECT_DIR$/src/naivebayes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+          <caret line="18" column="52" lean-forward="false" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
           <folding />
         </state>
       </provider>
