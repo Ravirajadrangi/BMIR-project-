@@ -1,0 +1,12 @@
+trainFile=smoker-train-stanford-classifier.txt
+testFile=smoker-test-stanford-classifier.txt
+useClassFeature=true
+1.useNGrams=true
+1.usePrefixSuffixNGrams=true
+1.maxNGramLeng=4
+1.minNGramLeng=1
+1.binnedLengths=10,20,30
+printClassifier=HighWeight
+printClassifierParam=200
+printTo=propoutput.txt
+sigma=3

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="stanford-classifier-3.7.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../nlpmodels/stanford-classifier-2016-10-31/stanford-classifier-3.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../nlpmodels/stanford-classifier-2016-10-31/stanford-classifier.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../nlpmodels/stanford-classifier-2016-10-31/stanford-classifier-3.7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
