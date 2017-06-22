@@ -39,8 +39,8 @@ tfidf_transformer = TfidfTransformer()
 X_train_tfidf = tfidf_transformer.fit_transform(X_train_counts)
 clf = MultinomialNB().fit(X_train_tfidf, target)
 
-docs_new = ["I quit smoking two weeks ago", "I quit smoking two years ago", "I still am smoking", "I smoke 3 packs a day", "I do not smoke", "I love unicorns and ponies", "quit"]
-X_new_counts = count_vect.transform(docs_new)
+parse('smokers_surrogate_test_all_groundtruth_version2.xml', True)
+X_new_counts = count_vect.transform(data)
 X_new_tfidf = tfidf_transformer.transform(X_new_counts)
 predicted = clf.predict(X_new_tfidf)
 print(predicted)
@@ -49,6 +49,8 @@ text_clf = Pipeline([('vect', CountVectorizer()),
                      ('tfidf', TfidfTransformer()),
                      ('clf', MultinomialNB()),
 ])
+
+print(np.mean(predicted == target))
 
 # parse('smokers_surrogate_test_all_groundtruth_version2.xml', True)
 # predicted = text_clf.predict(data)
