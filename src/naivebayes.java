@@ -16,7 +16,7 @@ public class naivebayes{
         // the line "useNB=true" somehow converts the classifier in the next line into a NaiveBayesClassifier?
         NaiveBayesClassifier<String,String> cl =
                 (NaiveBayesClassifier) cdc.makeClassifier(cdc.readTrainingExamples("smoker-train-stanford-classifier.txt"));
-        // create classifier (cast to nbclassifier)
+        // create classifier (cast to nbclassifier)1
         GeneralDataset<String, String> data = cdc.readTestExamples("smoker-test-stanford-classifier.txt").first();
         //create local var to cut down on read time
         System.out.println(cl.evaluateAccuracy(data));
