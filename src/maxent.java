@@ -26,7 +26,4 @@ public class maxent{
             // precision and recall is always 1, what is wrong here?
         }
     }
-
-
-
 }

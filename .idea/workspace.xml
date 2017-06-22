@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d455b38c-9480-4671-9e63-6c1ab3166474" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/smokingml/naivebayes.class" afterPath="$PROJECT_DIR$/out/production/smokingml/naivebayes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/smokingml/supportvector.class" afterPath="$PROJECT_DIR$/out/production/smokingml/supportvector.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/maxent.java" afterPath="$PROJECT_DIR$/src/maxent.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/naivebayes.java" afterPath="$PROJECT_DIR$/src/naivebayes.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,8 +22,8 @@
       <file leaf-file-name="maxent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/maxent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            <state relative-caret-position="405">
+              <caret line="27" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,23 +31,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="naivebayes.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="naivebayes.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/naivebayes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="e#334#350#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="supportvector.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="supportvector.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/supportvector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+            <state relative-caret-position="150">
+              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,9 +86,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/ClassifierExample.java" />
+        <option value="$PROJECT_DIR$/src/supportvector.java" />
         <option value="$PROJECT_DIR$/src/maxent.java" />
         <option value="$PROJECT_DIR$/src/naivebayes.java" />
-        <option value="$PROJECT_DIR$/src/supportvector.java" />
       </list>
     </option>
   </component>
@@ -269,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.supportvector">
+  <component name="RunManager" selected="Application.maxent">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
@@ -725,9 +726,9 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.supportvector" />
+        <item index="0" class="java.lang.String" itemvalue="Application.maxent" />
         <item index="1" class="java.lang.String" itemvalue="Application.naivebayes" />
-        <item index="2" class="java.lang.String" itemvalue="Application.maxent" />
+        <item index="2" class="java.lang.String" itemvalue="Application.supportvector" />
         <item index="3" class="java.lang.String" itemvalue="Application.ClassifierExample" />
       </list>
     </recent_temporary>
@@ -743,12 +744,12 @@
       <option name="presentableId" value="Default" />
       <updated>1498067699882</updated>
       <workItem from="1498067708007" duration="8760000" />
-      <workItem from="1498147177011" duration="2266000" />
+      <workItem from="1498147177011" duration="3945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11026000" />
+    <option name="totallyTimeSpent" value="12705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1436" height="878" extended-state="6" />
@@ -824,9 +825,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-          <folding>
-            <element signature="e#334#350#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -848,33 +847,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/naivebayes.java">
+    <entry file="file://$PROJECT_DIR$/src/supportvector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="28" />
           <folding>
-            <element signature="e#334#350#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/maxent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="405">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/supportvector.java">
+    <entry file="file://$PROJECT_DIR$/src/naivebayes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
