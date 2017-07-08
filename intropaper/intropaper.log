@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 JUN 2017 17:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 JUL 2017 13:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/Users/MichaelK/Desktop/smokingml/intropaper.tex
-(/Users/MichaelK/Desktop/smokingml/intropaper.tex
+**/Users/MichaelK/Desktop/smokingml/intropaper/intropaper.tex
+(/Users/MichaelK/Desktop/smokingml/intropaper/intropaper.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
@@ -134,7 +134,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \caption@hangindent=\dimen126
 )
 \c@ContinuedFloat=\count102
-) (/Users/MichaelK/Desktop/smokingml/intropaper.aux)
+) (/Users/MichaelK/Desktop/smokingml/intropaper/intropaper.aux)
 \openout1 = `intropaper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
@@ -205,27 +205,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] [3] (/Users/MichaelK/Desktop/smokingml/intropaper.aux) ) 
+[2] [3] (/Users/MichaelK/Desktop/smokingml/intropaper/intropaper.aux) ) 
 Here is how much of TeX's memory you used:
  2827 strings out of 493089
- 41120 string characters out of 6134842
+ 41219 string characters out of 6134842
  113644 words of memory out of 5000000
  6318 multiletter control sequences out of 15000+600000
  13532 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,10n,43p,1354b,232s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2015/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on /Users/MichaelK/Desktop/smokingml/intropaper.pdf (3 pages, 11
-3364 bytes).
+ 36i,10n,43p,1365b,232s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on /Users/MichaelK/Desktop/smokingml/intropaper/intropaper.pdf (
+3 pages, 113369 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream

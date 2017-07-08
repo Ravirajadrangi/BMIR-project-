@@ -1,9 +1,9 @@
-PWD /Users/MichaelK/Desktop/smokingml
+PWD /Users/MichaelK/Desktop/smokingml/intropaper
 INPUT /usr/local/texlive/2015/texmf.cnf
 INPUT /usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/MichaelK/Desktop/smokingml/intropaper.tex
-OUTPUT /Users/MichaelK/Desktop/smokingml/intropaper.log
+INPUT /Users/MichaelK/Desktop/smokingml/intropaper/intropaper.tex
+OUTPUT /Users/MichaelK/Desktop/smokingml/intropaper/intropaper.log
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/size12.clo
@@ -40,9 +40,9 @@ INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
-INPUT /Users/MichaelK/Desktop/smokingml/intropaper.aux
-INPUT /Users/MichaelK/Desktop/smokingml/intropaper.aux
-OUTPUT /Users/MichaelK/Desktop/smokingml/intropaper.aux
+INPUT /Users/MichaelK/Desktop/smokingml/intropaper/intropaper.aux
+INPUT /Users/MichaelK/Desktop/smokingml/intropaper/intropaper.aux
+OUTPUT /Users/MichaelK/Desktop/smokingml/intropaper/intropaper.aux
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
@@ -64,7 +64,7 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-OUTPUT /Users/MichaelK/Desktop/smokingml/intropaper.pdf
+OUTPUT /Users/MichaelK/Desktop/smokingml/intropaper/intropaper.pdf
 INPUT /usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
@@ -86,7 +86,7 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm1
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmsl12.tfm
-INPUT /Users/MichaelK/Desktop/smokingml/intropaper.aux
+INPUT /Users/MichaelK/Desktop/smokingml/intropaper/intropaper.aux
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
